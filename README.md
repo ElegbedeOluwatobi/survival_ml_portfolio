@@ -19,7 +19,12 @@
 ## Run the code
 
 - **Online:** Open the notebook in [Google Colab](https://colab.research.google.com/).
-- **Locally:**  
-  ```bash
-  git clone https://github.com/yourusername/survival_ml_portfolio.git
-  pip install lifelines pandas matplotlib numpy
+
+### Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ElegbedeOluwatobi/survival_ml_portfolio.git
+   cd survival_ml_portfolio
+
+2.33Create a virtual environment and install required packages
+    pip install -r requirements.txt
