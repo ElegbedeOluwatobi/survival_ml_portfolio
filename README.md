@@ -1,30 +1,24 @@
 # Survival Analysis Portfolio
 
-**Author:** Oluwatobi Elegbede — MSc Biostatistics (Survival Analysis, ML, Epidemiology, Clinical Trials)
+**Oluwatobi Elegbede** — MSc Biostatistics (Survival Analysis, ML, Epidemiology, Clinical Trials)
 
 ---
 
-## Projects
+## Project 1: Kaplan‑Meier Analysis of Lung Cancer Survival
 
-### 1. Kaplan‑Meier Analysis of Lung Cancer Survival (`01_KM_lung_dataset.ipynb`)
-- **Data:** `lifelines.datasets.load_lung()` – 228 lung cancer patients.
-- **Methods:** KM curves, log‑rank test, risk tables, confidence bands.
-- **Key results:** Median survival 310 days; females have significantly better survival (log‑rank p ≈ 0.0013).
-- **Limitations:** Univariate only. Next: Cox regression.
+**Notebook:** `01_KM_lung_dataset.ipynb`
 
-> More projects (Cox PH, Random Survival Forests, DeepSurv) will be added.
+- **Data:** 228 lung cancer patients (`lifelines.datasets.load_lung()`)
+- **Methods:** KM curves, log‑rank test, risk tables, confidence bands
+- **Key results:** Median survival 310 days; females survive longer (log‑rank p ≈ 0.0013)
+- **Limitations:** Univariate only → next: Cox regression
 
 ---
 
-## Run the code
+## Run this project
 
-- **Online:** Open the notebook in [Google Colab](https://colab.research.google.com/).
-
-### Locally
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ElegbedeOluwatobi/survival_ml_portfolio.git
-   cd survival_ml_portfolio
-
-2. Create a virtual environment and install required packages
-    pip install -r requirements.txt
+```bash
+git clone https://github.com/ElegbedeOluwatobi/survival_ml_portfolio.git
+cd survival_ml_portfolio
+pip install -r requirements.txt
+jupyter notebook
