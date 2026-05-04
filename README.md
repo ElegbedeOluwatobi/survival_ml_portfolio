@@ -26,5 +26,5 @@
    git clone https://github.com/ElegbedeOluwatobi/survival_ml_portfolio.git
    cd survival_ml_portfolio
 
-2.33Create a virtual environment and install required packages
+2. Create a virtual environment and install required packages
     pip install -r requirements.txt
